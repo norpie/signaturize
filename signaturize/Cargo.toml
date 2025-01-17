@@ -10,7 +10,7 @@ readme = "../README.md"
 
 [dependencies]
 serde = { version = "1.0.216", features = ["derive"] }
-signaturize_derive = { version = "0.1.0" }
+signaturize_derive = { version = "0.1.0", path = "../signaturize_derive" }
 
 [dev-dependencies]
 signaturize_derive = { path = "../signaturize_derive" }
