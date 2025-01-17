@@ -2,6 +2,11 @@
 name = "signaturize"
 version = "0.1.0"
 edition = "2021"
+license-file = "../LICENSE"
+description = "A library for generating type signatures for Rust types."
+homepage = "https://github.com/norpie/signaturize"
+repository = "https://github.com/norpie/signaturize/tree/main/signaturize"
+readme = "../README.md"
 
 [dependencies]
 serde = { version = "1.0.216", features = ["derive"] }

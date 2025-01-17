@@ -2,6 +2,11 @@
 name = "signaturize_derive"
 version = "0.1.0"
 edition = "2021"
+license-file = "../LICENSE"
+description = "The derive macro for the signaturize crate"
+homepage = "https://github.com/norpie/signaturize"
+repository = "https://github.com/norpie/signaturize/tree/main/signaturize_derive"
+readme = "../README.md"
 
 [lib]
 proc-macro = true
